@@ -1,0 +1,29 @@
+{
+  "state": "d8fab282-d067-432b-b1ed-3866976f12a2",
+  "codeVerifier": "w.-st5MNOyTDChqR1UdrP2tccP2kzfmI63e9s8wqY.E",
+  "clientInformation": {
+    "redirect_uris": [
+      "http://localhost:3000/api/mcp/callback"
+    ],
+    "token_endpoint_auth_method": "none",
+    "grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types": [
+      "code"
+    ],
+    "client_name": "Silpo Family AI",
+    "client_uri": "http://localhost:3000",
+    "client_id": "-PrYuUUrINouiPgX",
+    "client_id_issued_at": 1789409837
+  },
+  "authorizationUrl": "https://mcp.silpo.ua/authorize?response_type=code&client_id=-PrYuUUrINouiPgX&code_challenge=SD96qKPamAxwxMDnB4Zx5eUxLFS0TMh7sE2U3f4BQhI&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Fmcp%2Fcallback&state=d8fab282-d067-432b-b1ed-3866976f12a2&resource=https%3A%2F%2Fmcp.silpo.ua%2Fmcp",
+  "tokens": {
+    "access_token": "bf3038a6-c56e-4372-ad24-47efcd4e6fff:RTMa4Ux-4RYQYoh6:grRjJPGBsQgrQzfvOpQRZCA0BosEe7cG",
+    "token_type": "bearer",
+    "expires_in": 2592000,
+    "scope": "",
+    "refresh_token": "bf3038a6-c56e-4372-ad24-47efcd4e6fff:RTMa4Ux-4RYQYoh6:cztiPVSN1jKpzQDtn9TwJsN1y9GWDxaL"
+  }
+}

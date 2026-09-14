@@ -1,0 +1,68 @@
+import { Product } from "@/types/product";
+
+export const mockProducts: Product[] = [
+  {
+    id: "1",
+    name: "Молоко Яготинське 2,6%",
+    category: "Молочні продукти",
+    price: 43.9,
+    unit: "900 мл",
+    available: true,
+  },
+  {
+    id: "2",
+    name: "Яйця курячі",
+    category: "Яйця",
+    price: 72.5,
+    unit: "10 шт",
+    available: true,
+  },
+  {
+    id: "3",
+    name: "Куряче філе",
+    category: "М'ясо",
+    price: 189.9,
+    unit: "кг",
+    available: true,
+  },
+  {
+    id: "4",
+    name: "Гречка",
+    category: "Крупи",
+    price: 54.9,
+    unit: "800 г",
+    available: true,
+  },
+  {
+    id: "5",
+    name: "Макарони",
+    category: "Бакалія",
+    price: 39.9,
+    unit: "500 г",
+    available: true,
+  },
+  {
+    id: "6",
+    name: "Помідори",
+    category: "Овочі",
+    price: 89.9,
+    unit: "кг",
+    available: true,
+  },
+  {
+    id: "7",
+    name: "Огірки",
+    category: "Овочі",
+    price: 79.9,
+    unit: "кг",
+    available: true,
+  },
+  {
+    id: "8",
+    name: "Банани",
+    category: "Фрукти",
+    price: 69.9,
+    unit: "кг",
+    available: true,
+  },
+];
